@@ -1,0 +1,100 @@
+Create one single-file web app in HTML, CSS, and JavaScript called:
+
+"StudyBuddy AI – Exam Stress Coach"
+
+Goal:
+Combine both features into one website:
+1. Topic explanation + quiz generator
+2. Exam stress coach + motivation + calming tips
+
+Important:
+- Everything must be in ONE file only: index.html
+- No backend
+- No API
+- No database
+- Browser-only app
+- Must work fully offline after page load
+
+Main Sections of the Website:
+
+1. Header Section
+- App title: "StudyBuddy AI – Exam Stress Coach"
+- Subtitle: "Learn smarter, revise faster, stress less"
+- Add a student-friendly emoji/icon in header
+- Use a beautiful hero section
+
+2. Topic Learning Section
+- Input box where student types any topic
+- Example placeholder: "Enter a topic like Photosynthesis, Algebra, Mughal Empire..."
+- Button: "Explain Topic"
+- Show explanation in simple easy words for Indian school students
+- Explanation should appear inside a nice response card
+
+3. Quiz Section
+- Button: "Generate Quiz"
+- Generate exactly 3 MCQ questions based on the entered topic
+- Each question must have 4 options
+- User can click one option
+- Show correct/wrong instantly
+- At end show final score out of 3
+- Quiz should appear below explanation in a separate card
+
+4. Stress Coach Section
+- Add a card called "Exam Stress Help"
+- Show one calming study tip
+- Add button: "Motivate Me"
+- When clicked, show a random motivational line for students
+- Add button: "Breathing Tip"
+- Show a simple breathing exercise like:
+  "Breathe in for 4 seconds, hold for 4 seconds, breathe out for 6 seconds"
+- Add button: "Study Tip"
+- Show practical exam tip like:
+  "Break one big chapter into 3 small parts"
+
+5. Reset Section
+- Add button: "Clear All"
+- It should clear topic input, explanation, quiz, score, and stress tips
+
+Design Requirements:
+- Beautiful modern colorful interface
+- Blue and purple gradient theme
+- Rounded corners
+- Soft shadows
+- Clean student-friendly layout
+- Responsive for mobile and laptop
+- Smooth hover effects on buttons
+- Nice spacing and readable fonts
+- Use cards for each major section
+- Add fade-in animation for generated content
+- Add 1 second loading animation before explanation and quiz appear
+
+Behavior Requirements:
+- Simulate AI in JavaScript only
+- No real AI API needed
+- For common school subjects like Science, Maths, History, Geography, English, Computer:
+  - generate simple explanation
+  - generate topic-related MCQs
+- For unknown topics:
+  - still generate a generic simple explanation using topic name
+  - still generate 3 placeholder quiz questions related to the topic
+- Never leave the page blank after button click
+
+Technical Requirements:
+- Use only HTML, CSS, JavaScript
+- Put CSS inside <style>
+- Put JavaScript inside <script>
+- No external libraries required
+- No separate files
+- Clean and beginner-friendly code
+- Add comments throughout the code
+- Use DOM manipulation only
+
+Extra UI Features:
+- Add footer text: "Made for students with StudyBuddy AI"
+- Add a small result badge for quiz score
+- Add subtle glassmorphism or gradient cards
+- Add section icons or emojis
+
+Output required:
+- Return the complete final working code for index.html only
+- Do not split into multiple files
